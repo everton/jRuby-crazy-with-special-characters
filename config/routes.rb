@@ -1,4 +1,6 @@
 JrubySandbox::Application.routes.draw do
+  match 'bugs' => 'bugs#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
